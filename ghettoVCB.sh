@@ -1491,7 +1491,7 @@ if mkdir "${WORKDIR}"; then
     logger "debug" "Succesfully removed lock directory - ${WORKDIR}\n"
     logger "info" "============================== ghettoVCB LOG END ================================\n"
 
-    sendMail
+    #sendMail
 
     # practically redundant
     [[ "${WORKDIR_DEBUG}" -eq 0 ]] && rm -rf "${WORKDIR}"
